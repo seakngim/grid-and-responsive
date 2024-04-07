@@ -57,11 +57,13 @@ main {
 
     & h1 {
         display: none;
+        font-size: 36px;
     }
 
     @media screen and (max-width: 2560px) {
         & h1:nth-child(1) {
-            padding: 10px;
+            padding: 30px;
+            color: #F00022;
             display: block;
         }
 
@@ -133,7 +135,8 @@ main {
     @media (max-width: 768px) {
 
         & h1:nth-child(2) {
-            padding: 10px;
+            padding: 30px;
+            color: #F00022;
             display: block;
         }
 
@@ -153,14 +156,15 @@ main {
         }
     }
 
-    @media (max-width: 425px) {
+    @media (max-width: 600px) {
 
         & h1:nth-child(2) {
             display: none !important;
         }
 
         & h1:nth-child(3) {
-            padding: 10px;
+            padding: 30px;
+            color: #F00022;
             display: block !important;
         } 
 
